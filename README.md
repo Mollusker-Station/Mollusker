@@ -1,4 +1,4 @@
-<p align="center"> <img alt="Space Station 14" width="880" height="300" src="https://github.com/Mollusker-Station/Mollusker/assets/40129460/c700eb2b-8170-42c9-a961-a0821f3df0b0" /></p>
+<p align="center"> <img alt="Space Station 14" width="1024" height="512" src="https://github.com/Mollusker-Station/Mollusker/assets/40129460/912f5702-fcea-44e6-b06c-807f47e75f48" /></p>
 
 Space Station 14 is a remake of SS13 that runs on [Robust Toolbox](https://github.com/space-wizards/RobustToolbox), our homegrown engine written in C#.
 
