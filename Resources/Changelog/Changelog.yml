@@ -1,27 +1,4 @@
 ﻿Entries:
-- author: nikthechampiongr
-  changes:
-  - message: You can now use the SCRAM! implant while cuffed.
-    type: Fix
-  - message: The freedom implant can no longer be used while in crit, or dead.
-    type: Fix
-  id: 6193
-  time: '2024-03-18T22:35:46.0000000+00:00'
-  url: https://github.com/space-wizards/space-station-14/pull/25978
-- author: SlamBamActionman
-  changes:
-  - message: Recyclers no longer delete items stored inside of recycled entities.
-    type: Fix
-  id: 6194
-  time: '2024-03-19T02:36:22.0000000+00:00'
-  url: https://github.com/space-wizards/space-station-14/pull/26045
-- author: Vermidia
-  changes:
-  - message: Made the Artifact Reports page up to date with current Xenoarchaeology
-    type: Tweak
-  id: 6195
-  time: '2024-03-19T03:22:21.0000000+00:00'
-  url: https://github.com/space-wizards/space-station-14/pull/26252
 - author: keronshb
   changes:
   - message: Fixed a bug where stores were enabling refunds after a purchase
@@ -3849,3 +3826,25 @@
   id: 6692
   time: '2024-06-06T19:24:13.0000000+00:00'
   url: https://github.com/space-wizards/space-station-14/pull/28668
+- author: Dutch-VanDerLinde
+  changes:
+  - message: Fixed janitors not spawning with a survival box in their bag
+    type: Fix
+  id: 6693
+  time: '2024-06-06T22:26:13.0000000+00:00'
+  url: https://github.com/space-wizards/space-station-14/pull/28669
+- author: blueDev2
+  changes:
+  - message: Rebalanced medicated suture and regen mesh to only require 1 brute pack/ointment
+      respectively
+    type: Tweak
+  id: 6694
+  time: '2024-06-07T01:24:08.0000000+00:00'
+  url: https://github.com/space-wizards/space-station-14/pull/28679
+- author: AJCM-git
+  changes:
+  - message: Guidebook no longer lists every single rule
+    type: Fix
+  id: 6695
+  time: '2024-06-07T11:28:55.0000000+00:00'
+  url: https://github.com/space-wizards/space-station-14/pull/28680
