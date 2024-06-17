@@ -407,6 +407,22 @@ public sealed partial class AdminVerbSystem
                 Message = string.Join(": ", lungRemovalName, Loc.GetString("admin-smite-lung-removal-description"))
             };
             args.Verbs.Add(lungRemoval);
+
+            Verb egg = new()
+            {
+                Text = "admin-smite-egg-name",
+                Category = VerbCategory.Smite,
+                Icon = new SpriteSpecifier.Rsi(new ("/Textures/Objects/Consumable/Food/egg.rsi"), "icon"),
+                Act = () =>
+                {
+                    EnsureComp<EggVerbComponent>(args.Target);
+                    _popupSystem.PopupEntity(Loc.GetString("admin-smite-egg-self"), args.Target,
+                        args.Target, PopupType.LargeCaution);
+                },
+                Impact = LogImpact.Extreme,
+                Message = Loc.GetString("admin-smite-egg-description"),
+            };
+            args.Verbs.Add(egg);
         }
 
         if (TryComp<PhysicsComponent>(args.Target, out var physics))
